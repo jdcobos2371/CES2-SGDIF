@@ -28,3 +28,35 @@ Al momento de efectuar una venta se hace un registro de forma manual, que indiqu
 <div><p  style="text-align:justify">
 La farmacia  medilife en su actual funcionamiento y con las  problemáticas evidenciadas, dan como resultado un proceso inadecuado y poco conveniente para  la  misma. Por lo tanto, se llegó a la conclusión de  desarrollar un sistema de software que responde al nombre de SisFarma que se encargará de hacer un inventario en tiempo real, el cual permitirá tener un registro y gestión  de los productos, proveedores, ventas y clientes permitiendo  así  tener  un control total de  todos los  factores que implica este negocio. SisFarma será desarrollado con las siguientes tecnologías: React.js para el Frontend (vista para el usuario), MongoDB para almacenar todos los datos del sistema (BASE de DATOS), Node.js  (para la lógica del negocio). Dando como resultado un sistema amigable para  el usuario, fácil de manejar  y lo mejor que de todo flexible, ya que, este sería adaptable para otros negocios que tienen su actual funcionamiento en el mundo farmacéutico.
 </P></div>
+
+## <div style="text-align:center">DESCRIPCIÓN DE LA PROPUESTA <div>
+<div><p  style="text-align:justify">
+teniendo en cuenta las problemáticas evidenciadas anteriormente que se basan en un mal manejo de la información de la farmacia  Medilife y los riesgos que se están asumiendo que son poco convenientes para el negocio. se plantea desarrollar  un sistema de software que permita reducir a cero los procesos manuales a través de un inventario en tiempo real dando como resultado un sistema inclusivo que permita una mejor  interacción por parte de todas las personas que hacen posible el funcionamiento de la farmacia y lo más importante un sistema de software que permita hacer un inventario y tener un registro acertado de ventas poniendo en uso la información de los  proveedores, productos, ventas y clientes del sistema. La ventaja de desarrollar un sistema que abarque estos procesos es que brinda confianza, ya que, estaría ofreciendo  al usuario productos previamente revisados, teniendo así un histórico de cada uno, un registro de ventas que permitirá saber cual es el comportamiento de estas según los días  de la semana, un registro de los clientes más frecuentes para saber si aplican a un descuento. en conclusión tener la información siempre a la mano para conocer el comportamiento de la farmacia y que por medio de esta se puedan ver los ingresos, cantidad de producto disponible  y ventas realizadas. 
+</P></div>
+<div><p  style="text-align:justify">
+SisFarma por medio de un sistema fácil de manejar y agradable para el usuario permitirá lo siguiente:
+</P></div>
+<div><p  style="text-align:justify">
+1. Que el administrador  y dueño del negocio pueda ver en tiempo real los productos activos, los que se encuentran a punto de vencerse  y en definitiva los que  no tienen un buena acogida  comercial y en lugar de  generar  ingresos generan pérdidas para el negocio.
+</P></div>
+<div><p  style="text-align:justify">
+2. Que el proceso de ventas se encuentre sistematizado   
+</P></div>
+<div><p  style="text-align:justify">
+3. Tener a la  mano el total de las ventas realizadas o saber en cualquier  momento el comportamiento de las mismas.
+</P></div>
+<div><p  style="text-align:justify">
+*Nota: por cuestiones tiempo en este primer ciclo de desarrollo del proyecto no se desarrollara nada relacionado con los clientes ya que hay otros  procesos con más prioridad que deben ser atendidos lo más  pronto posible para forjar desde un sistema más acertado*
+</P></div>
+<div><p  style="text-align:justify">
+Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
+</P></div>
+<div><p  style="text-align:justify">
+1.React.js : Para la vista del usuario (Front-end) por que permite un desarrollo más ordenado, ágil y con menos código  sin dejar a un lado la calidad de desarrollo. 
+</P></div>
+<div><p  style="text-align:justify">
+2.MongoDB: para almacenar todos los datos del sistema (BASE de DATOS) por que es una base de datos NoSQL lo cual la hace mas rapida y eficiente , además de que no es necesario hacer en esquema de entidad relación ayudándonos a una implementación mucho más ágil. 
+</P></div>
+<div><p  style="text-align:justify">
+3.Node.js  (para la lógica del negocio)   por que nos permite programar de con Javascript desde el lado del servidor y del cliente con un excelente rendimiento y permitiendo un desarrollo muchas más rápido.  
+</P></div>
