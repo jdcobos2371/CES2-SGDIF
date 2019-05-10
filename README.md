@@ -21,3 +21,10 @@ Cada vez que se reciben nuevos medicamentos, se hace un registro en una libreta 
 <div><p  style="text-align:justify">
 Al momento de efectuar una venta se hace un registro de forma manual, que indique el producto vendido y el valor del mismo, esto no se hace frecuentemente, por lo tanto al momento de realizar la cuenta del valor total de las ventas del día, no es un valor exacto, esto puede generar pérdidas de dinero.</P></div>
 
+</div>
+
+## <div style="text-align:center"> JUSTIFICACIÓN <div>
+
+<div><p  style="text-align:justify">
+La farmacia  medilife en su actual funcionamiento y con las  problemáticas evidenciadas, dan como resultado un proceso inadecuado y poco conveniente para  la  misma. Por lo tanto, se llegó a la conclusión de  desarrollar un sistema de software que responde al nombre de SisFarma que se encargará de hacer un inventario en tiempo real, el cual permitirá tener un registro y gestión  de los productos, proveedores, ventas y clientes permitiendo  así  tener  un control total de  todos los  factores que implica este negocio. SisFarma será desarrollado con las siguientes tecnologías: React.js para el Frontend (vista para el usuario), MongoDB para almacenar todos los datos del sistema (BASE de DATOS), Node.js  (para la lógica del negocio). Dando como resultado un sistema amigable para  el usuario, fácil de manejar  y lo mejor que de todo flexible, ya que, este sería adaptable para otros negocios que tienen su actual funcionamiento en el mundo farmacéutico.
+</P></div>
