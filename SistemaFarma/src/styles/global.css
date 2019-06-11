@@ -1,0 +1,59 @@
+.containerLogin{
+    height: 80%;
+    width: 60%;
+    position: relative;
+
+}
+.containerLogin_contenido{
+    margin-top: 20%;
+    margin-left: 50%;
+    height: auto;
+    width: 60%;
+    background: rgb(250, 246, 246);
+    border-radius:3px;
+    text-align: center;
+}
+
+.loginHeader{
+    height: 60px;
+    border-bottom: 2px solid #FEBBBF;
+    background-color: #6FD1D8;
+ 
+}
+.pheader{
+    position: relative;
+    text-align: left;
+    margin: 5px;
+    font-weight: bold;
+    color: rgb(156, 154, 154);
+    text-decoration: underline;
+}
+
+.formLogin{
+ padding: 20px;
+ margin: 10px;
+}
+
+.inputs{
+    margin: 10px;
+    width: 80%;
+}
+
+.buttons{
+    margin:30px;
+
+}
+
+.imgLlogin{
+    position: relative;
+    z-index: 500000;
+    width: 100px;
+    bottom: 45px;
+ 
+}
+
+.btn_login{
+    
+}
+
+
