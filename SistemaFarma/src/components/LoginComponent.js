@@ -14,25 +14,25 @@ class LoginComponent extends Component {
                     <div className="containerLogin_form">
                         <div className="loginHeader">
                             <p className="pheader">Sisfarma</p>
-                         <img className="imgLlogin" src={logoPoli} />
+                            <img className="imgLlogin" src={logoPoli} />   
                         </div>
 
                         <form className="formLogin">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-12">
-                                        <input className="inputs" type="text" name="name"  placeholder="Usuario"/>
+                                        <input className="form-control inputs" type="text" name="name"  placeholder="Usuario"/>
                                     </div>
                                     <div className="col-12">
-                                        <input className="inputs" type="text" name="name" placeholder="Contraseña"/>
+                                        <input className="form-control inputs" type="text" name="name" placeholder="Contraseña"/>
                                     </div>
                                 </div>
                             </div>
                           
                             <div className="buttons container">
                                 <div className="row">
-                                    <div className="btn_login col-12">
-                                        <input type="submit" value="Iniciar Sesión" />
+                                    <div className="col-12">
+                                        <input className="btn_login" type="submit" value="Iniciar Sesión" />
                                   </div>
                                 </div>
                             </div>  

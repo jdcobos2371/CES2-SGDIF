@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LoginComponent from '../src/components/LoginComponent';
+import Login from '../src/pages/Login';
 
 //importar bootstrap, recuerda hacer npm install bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
@@ -9,4 +9,4 @@ import 'bootstrap/dist/css/bootstrap.css'
 const container = document.getElementById('app');
 
 
-ReactDOM.render(<LoginComponent />, container);
+ReactDOM.render(<Login />, container);
