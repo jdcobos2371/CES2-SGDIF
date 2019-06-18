@@ -72,3 +72,59 @@ Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
 - No encuentro información de las personas involucradas en este proyecto.
 
 #### Nota: 4,5
+
+<div style="text-align: center" > 
+
+# Prototipos del sistema de gestión de farmacias (SisFarma)
+![logo](Logo/logo.jpg)
+
+</div>
+
+## <div style="text-align:center"> Inicio de sesión <div>
+
+![logo](img/ini.png)
+
+## <div style="text-align:center">Menú del sistema</div>
+
+<div><p  style="text-align:justify">
+Cabe aclarar que dependiendo de los perfiles a los cuales pertenezcan los  usuarios tendrán los  permisos para  ingresar  a las  opciones del sistema, es decir, si es el adiestrador  tendrá acceso  a  todo. Por el contrario si es un vendedor solo podrá acceder a las  ventas, productos, y proveedores pero este no podrá eliminarlos  el único que tiene  permiso es el administrador.</P></div>
+
+![logo](img/menuu.png)
+
+## <div style="text-align:center"> Personas <div>
+
+![logo](img/RGPERSONA.png)
+
+Una vez las personas se encuentren registradas  aparecerán  cada  uno  de  los registros en una tabla en  donde se  podrán modificar o eliminar.
+</P></div>
+
+![logo](img/persona.png)
+
+
+
+## <div style="text-align:center">Registro de ventas</div>
+
+![logo](img/rgventa.png)
+
+## <div style="text-align:center">Ventas</div>
+<div><p  style="text-align:justify">
+
+Una vez la ventas se encuentren registradas  aparecerán  cada  uno  de  los registros en una tabla, en  donde se  podrán modificar o eliminar.
+</P></div>
+
+![logo](img/venta.png)
+
+## <div style="text-align:center">Productos</div>
+![logo](img/rgproductos.png)
+
+Una vez los productos se encuentren registrados  aparecerán  cada  uno  de  los registros en una tabla, en  donde se  podrán modificar o eliminar.
+</P></div>
+
+![logo](img/productos1.png)
+
+## <div style="text-align:center">Proveedores</div>
+![logo](img/rgpro.jpg)
+
+Una vez los proveedores se encuentren registrados  aparecerán  cada  uno  de  los registros en una tabla, en  donde se  podrán modificar o eliminar.
+
+![logo](img/proveedores1.png)
