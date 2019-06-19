@@ -5,6 +5,40 @@ import logoPoli from '../images/login.png';
 
 
 class LoginComponent extends Component {
+    constructor(args){
+        super(args)
+        this.state = {
+            name: '',
+            password:  ''
+        }
+
+    }
+
+    onChange(e){
+        this.setState({
+            [e.target.name]: e.target.value,
+            [e.target.password]: e.target.value
+        })
+    }
+
+    guadar(){
+
+        this.validate();
+
+    }
+
+    validate(){
+        if(this.state.name === ""){
+            alert("dfdf");
+        }
+        
+        if(this.state.password === ""){
+            alert("dfdf");
+        }
+
+
+    
+    }
     render(){
     
         
@@ -17,14 +51,14 @@ class LoginComponent extends Component {
                             <img className="imgLlogin" src={logoPoli} />   
                         </div>
 
-                        <form className="formLogin">
+                        <form className="formLogin"   >
                             <div className="container">
                                 <div className="row">
                                     <div className="col-12">
-                                        <input className="form-control inputs" type="text" name="name"  placeholder="Usuario"/>
+                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)} type="text" id="name" name="name"  placeholder="Usuario"/>
                                     </div>
                                     <div className="col-12">
-                                        <input className="form-control inputs" type="text" name="name" placeholder="Contraseña"/>
+                                        <input className="form-control inputs" value={this.state.password} onChange={this.onChange.bind(this)}type="password" id="password" name="password" placeholder="Contraseña"/>
                                     </div>
                                 </div>
                             </div>
@@ -32,7 +66,7 @@ class LoginComponent extends Component {
                             <div className="buttons container">
                                 <div className="row">
                                     <div className="col-12">
-                                        <input className="btn_login" type="submit" value="Iniciar Sesión" />
+                                        <input className="btn_login" onClick={this.guadar.bind(this)} type="submit" value="Iniciar Sesión" />
                                   </div>
                                 </div>
                             </div>  

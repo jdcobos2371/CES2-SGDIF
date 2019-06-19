@@ -5,7 +5,7 @@
 
 }
 .containerLogin_contenido{
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: 50%;
     height: auto;
     width: 60%;
@@ -104,5 +104,48 @@
     width: 100%;
  }
 
+.topbar{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background: #6FD1D8;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #FEBBBF;
+    -webkit-box-shadow: 3px 7px 13px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 3px 7px 13px 0px rgba(0,0,0,0.20);
+    box-shadow: 3px 7px 13px 0px rgba(0,0,0,0.20);
+}
 
-  
+.sisfarmaText{
+    position: relative;
+    left: 0;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+
+.img-topbar{
+    position: relative;
+    right: 0;
+    font-size: 30px;
+}
+
+.img-topbar{
+    text-align: right;
+}
+
+.img-log{
+    width: 60px;
+    height: 58px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+
+.sidebar-navigation{
+  background: #000000;
+}
