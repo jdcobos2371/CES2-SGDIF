@@ -1,0 +1,38 @@
+.containerFormulario{
+    height: 80%;
+    width: 100%;
+    position: relative;
+
+}
+.containerFormulario_contenido{
+    margin-top: 80px;
+    margin-left: 10%;
+    height: auto;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    border-radius:3px;
+    text-align: center;
+    border-bottom: 2px solid #FEBBBF
+}
+
+.loginHeader{
+    height: 60px;
+    border-bottom: 2px solid #FEBBBF;
+    background-color: #6FD1D8;
+ 
+}
+.pheader{
+    position: relative;
+    text-align: left;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    
+}
+
+.formLogin{
+ padding: 10px;
+ margin: 15px;
+ 
+}

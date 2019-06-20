@@ -5,7 +5,7 @@
 
 }
 .containerLogin_contenido{
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 50%;
     height: auto;
     width: 60%;
@@ -41,11 +41,14 @@
 
 .inputs{
     margin: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .buttons{
-    margin:30px;
+    
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
 }
 
@@ -146,6 +149,29 @@
 }
 
 
-.sidebar-navigation{
-  background: #000000;
+.Navbar{
+    height: 100vh;
+    padding: 0;
 }
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background: #6FD1D8;
+    left: -200px;
+    border-right:2px solid #FEBBBF;
+  }
+  
+  
+  .sidebar ul li {
+    color: rgba(230, 230, 230, .9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    text-align: center;
+  }
+
+  .contentbar{
+      margin-top: 30%;
+  }
+  
+  

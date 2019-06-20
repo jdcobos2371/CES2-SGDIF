@@ -1,18 +1,35 @@
 import React from 'react';
-import Navbar from '../components/Navbar.js';
+import '../styles/global.css'
+import Navbar from '../components/Navbar'
+import FormularioComponent from '../components/FormularioComponet';
 
+class ProfileNew extends React.Component{
 
-
-class Proveedores extends React.Component{
     render(){
         return(
-            
-                <div  className="container-fluid">
-                    <Navbar />
-                    <p>dsssssssssssssssss</p>
-                </div>
+     
+                            <div className="container-fluid">
+
+                            
+                    <div className="row">
+
+
+                        <div className =" Navbar col-2">
+                                <Navbar />
+                        </div>
+                        
+                        <div className="col-10">
+                                <FormularioComponent/>  
+                        </div>
+                        </div>   
+                        
+                        </div>
+ 
+
+
+
         )
     }
 }
 
-export default Proveedores;
+export default ProfileNew;

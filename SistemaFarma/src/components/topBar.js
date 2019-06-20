@@ -6,7 +6,9 @@ import logoSisfarma from '../images/LogoSisfarma.png';
 class topBar extends Component{
     render(){
         return(
-
+        <div >
+        <div className="row">
+            <div className="col-12">
             <div className="topbar">
                 <div className="container-fluid">
                     <div className="row">
@@ -21,7 +23,11 @@ class topBar extends Component{
                 </div>
                 </div>
             </div>
+            </div>
 
+            
+         </div>
+         </div>
         )
     }
 

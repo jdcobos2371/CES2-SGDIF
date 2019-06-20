@@ -55,6 +55,7 @@ class LoginComponent extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-12">
+                                        <label></label>
                                         <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)} type="text" id="name" name="name"  placeholder="Usuario"/>
                                     </div>
                                     <div className="col-12">
