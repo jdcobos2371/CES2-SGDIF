@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/global.css'
 import Navbar from '../components/Navbar'
-import FormularioComponent from '../components/FormularioComponet';
+import FormularioComponent from '../components/componetsPersonas';
 
 class ProfileNew extends React.Component{
 

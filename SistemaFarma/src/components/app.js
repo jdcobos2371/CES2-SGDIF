@@ -5,6 +5,7 @@ import Layout from './Layout'
 import Home from '../pages/Home';
 import ProfileNew from '../pages/Proveedores';
 import login from '../pages/Login'
+import personas from '../pages/personas'
 
 
 
@@ -16,6 +17,7 @@ function AppSisfarma(){
                     <Route exact path="/" component={Home} />
                     <Route exact path="/login" component={login} />
                     <Route exact path="/Menu/proveedores" component={ProfileNew} />
+                    <Route exact path="/Menu/personas" component={personas} />
                 </Switch>
             </Layout>
         </BrowserRouter>
