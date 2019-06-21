@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import fondo from '../images/Fondo.jpg';
 import '../styles/global.css';
 
@@ -9,7 +9,7 @@ function Home() {
         <div>
             <div className="cortina">
                 <div className="imgbackground">
-                    <img className="home-video-play" src={fondo}></img>
+                    <img className="home-video-play" src={fondo} alt="fondo"></img>
                 </div> 
             </div>
         </div>

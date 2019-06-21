@@ -17,7 +17,7 @@ class topBar extends Component{
                         <h2 className="sisfarmaText">Sisfarma</h2>
                     </div>
                     <div className="img-topbar col-9">
-                        <img className="img-log" src={logoSisfarma} />  
+                        <img className="img-log" src={logoSisfarma} alt="logoSisfarma" />  
                     </div>
                        
                 </div>

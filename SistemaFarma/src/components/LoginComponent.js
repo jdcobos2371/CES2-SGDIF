@@ -48,7 +48,7 @@ class LoginComponent extends Component {
                     <div className="containerLogin_form">
                         <div className="loginHeader">
                             <p className="pheader">Sisfarma</p>
-                            <img className="imgLlogin" src={logoPoli} />   
+                            <img className="imgLlogin" src={logoPoli} alt="logoPoli" />   
                         </div>
 
                         <form className="formLogin"   >
