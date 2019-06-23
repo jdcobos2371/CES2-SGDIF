@@ -63,10 +63,9 @@ Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
 ![logo](Logo/x.PNG)
 
 
-<div style="text-align: center" > 
-# Acta de validación de información
+##<div style="text-align: center"> Acta de validación de información
 
-![acta](img/acta.png)
+![logo](img/acta.PNG)
 
 </div>
 
@@ -167,7 +166,7 @@ Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema 
 </div>
 
 <div><p  style="text-align:justify">
-</P>Se anexa modelo lógico.</P>
+</P>Se anexa modelo lógico:</P>
 
 ![logo](img/MODELO.png)
 </div>
