@@ -1,6 +1,6 @@
 <div style="text-align: center" > 
 
-# **Sistema de gestión de  inventario para farmacias (SISFARMA)**
+# **SISTEMA DE GESTIÓN DE INVENTARIOS PARA FARMACIAS (SISFARMA)**
 
 ![logo](Logo/logo.jpg)
 </div>
@@ -62,9 +62,7 @@ Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
 
 ![logo](Logo/x.PNG)
 
-<div style="text-align: center"> 
-
-# ACTA DE VALIDACIÓN DE INFORMACIÓN
+## <div style="text-align:center">ACTA DE VALIDACIÓN DE INFORMACIÓN <div>
 
 ![logo](img/acta.PNG)
 
