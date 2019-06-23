@@ -29,11 +29,11 @@ class LoginComponent extends Component {
 
     validate(){
         if(this.state.name === ""){
-            alert("dfdf");
+            alert("Ingrese Usuario del sistema");
         }
         
         if(this.state.password === ""){
-            alert("dfdf");
+            alert("Ingrese Contraseña");
         }
 
 
