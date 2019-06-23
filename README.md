@@ -62,8 +62,9 @@ Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
 
 ![logo](Logo/x.PNG)
 
+<div style="text-align: center"> 
 
-##<div style="text-align: center"> Acta de validación de información
+# ACTA DE VALIDACIÓN DE INFORMACIÓN
 
 ![logo](img/acta.PNG)
 
@@ -135,34 +136,34 @@ Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema 
 <div><p  style="text-align:justify">
 </P></P>
 
-![logo](img/IMGA.png) 
+![logo](img/IMGA.PNG) 
 
 </div>
 
 <div><p  style="text-align:justify">
 </P></P>
 
-![logo](img/IMGB.png)
+![logo](img/IMGB.PNG)
 </div>
 <div><p  style="text-align:justify">
 </P></P>
 
-![logo](img/IMGC.png) 
+![logo](img/IMGC.PNG) 
 </div>
 <div><p  style="text-align:justify">
 </P></P>
 
-![logo](img/IMGD.png)
+![logo](img/IMGD.PNG)
 </div>
 <div><p  style="text-align:justify">
 </P></P>
 
-![logo](img/IMGE.png) 
+![logo](img/IMGE.PNG) 
 </div>
 <div><p  style="text-align:justify">
 </P></P>
 
-![logo](img/IMGF.png)
+![logo](img/IMGF.PNG)
 </div>
 
 <div><p  style="text-align:justify">
