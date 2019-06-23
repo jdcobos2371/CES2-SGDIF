@@ -29,11 +29,11 @@ class LoginComponent extends Component {
 
     validate(){
         if(this.state.name === ""){
-            alert("dfdf");
+            alert("Ingrese Usuario del sistema");
         }
         
         if(this.state.password === ""){
-            alert("dfdf");
+            alert("Ingrese Contraseña");
         }
 
 
@@ -48,7 +48,7 @@ class LoginComponent extends Component {
                     <div className="containerLogin_form">
                         <div className="loginHeader">
                             <p className="pheader">Sisfarma</p>
-                            <img className="imgLlogin" src={logoPoli} />   
+                            <img className="imgLlogin" src={logoPoli} alt="logoPoli" />   
                         </div>
 
                         <form className="formLogin"   >

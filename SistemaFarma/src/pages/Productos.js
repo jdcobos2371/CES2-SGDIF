@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/global.css'
 import Navbar from '../components/Navbar'
-import FormularioComponent from '../components/FormularioComponet';
+import FormularioComponentProduct from '../components/FormularioComponentProduct';
 
-class ProfileNew extends React.Component{
+class Products extends React.Component{
 
     render(){
         return(
      
-                 <div className="container-fluid">
-     
+                <div className="container-fluid">
+
                     <div className="row">
 
                         <div className =" Navbar col-2">
@@ -17,14 +17,14 @@ class ProfileNew extends React.Component{
                         </div>
                         
                         <div className="col-10">
-                                <FormularioComponent/>  
+                                <FormularioComponentProduct/>  
                         </div>
                     </div>   
                         
-                </div>
+                  </div>
 
         )
     }
 }
 
-export default ProfileNew;
+export default Products;
