@@ -231,7 +231,6 @@ El diagrama de clases presenta las siguientes características:
 
 ## <div style="text-align:left">4. Conectores: </div>
 <div><p  style="text-align:justify">
-4. CONECTORES: <br>
 * ventas (REALIZA) cliente.<br>
 * ventas (CONTIENE) producto.<br>
 * cliente (PERTENECE) género.<br>
