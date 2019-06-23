@@ -177,8 +177,9 @@ Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema 
 </p></div>
 El diagrama de clases presenta las siguientes características:
 </p></div>
+
+## <div style="text-align:left">1. Clases: </div>
 <div><p  style="text-align:justify">
-1. CLASES: <br>
 * Venta.<br>
 * Cliente.<br>
 * Género.<br>
@@ -194,8 +195,8 @@ El diagrama de clases presenta las siguientes características:
 * Categoría. <br>
 </p></div>
 
+## <div style="text-align:left">2. Relaciones: </div>
 <div><p  style="text-align:justify">
-2. RELACIONES: <br>
 * ventas- cliente: uno/muchos a uno/muchos. <br>
 * ventas- producto: uno/muchos a uno/muchos.<br>
 * cliente- género: uno/muchos a uno.<br>
@@ -211,8 +212,8 @@ El diagrama de clases presenta las siguientes características:
 * producto- presentacíon: uno/muchos a uno.<br>
 </P></div>
 
+## <div style="text-align:left">3. Composición: </div>
 <div><p  style="text-align:justify">
-3. COMPOSICIÓN: <br>
 * ventas- cliente: agreación.<br>
 * ventas- producto: asociación.<br>
 * cliente- género: agreación.<br>
@@ -228,6 +229,7 @@ El diagrama de clases presenta las siguientes características:
 * producto- presentacíon: agreación.<br>
 </p></div>
 
+## <div style="text-align:left">4. Conectores: </div>
 <div><p  style="text-align:justify">
 4. CONECTORES: <br>
 * ventas (REALIZA) cliente.<br>
@@ -245,8 +247,8 @@ El diagrama de clases presenta las siguientes características:
 * producto (TIENE) presentacíon.<br>
 </p></div>
 
+## <div style="text-align:left">5. Dependencias: </div>
 <div><p  style="text-align:justify">
-4. DEPENDENCIAS: <br>
 * cliente DEPENDE venta.<br>
 * ventas DEPENDE producto.<br>
 * género DEPENDE cliente.<br>
