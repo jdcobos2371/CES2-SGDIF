@@ -15,14 +15,14 @@ El diagrama de clases presenta las siguientes características:
 </P></div>
 <div><p  style="text-align:justify">
 1.Clases: 
-- Venta.
-- Cliente.
-- Género.
-- Empleado. 
-- Tipo de identificación.
-- Usuario empleado.
-- Productos.
-- Tipo empleado.
+- Venta.<br>
+- Cliente.<br>
+- Género.<br>
+- Empleado. <br>
+- Tipo de identificación.<br>
+- Usuario empleado.<br>
+- Productos.<br>
+- Tipo empleado.<br>
 - Laboratorio.
 - Proveedor.
 - Marca. 
@@ -62,7 +62,7 @@ El diagrama de clases presenta las siguientes características:
 * producto- presentacíon: agreación.
 </p></div>
 <div><p  style="text-align:justify">
-4. Conectores:
+### 4. Conectores:
 * ventas (REALIZA) cliente.
 * ventas (CONTIENE) producto.
 * cliente (PERTENECE) género.
