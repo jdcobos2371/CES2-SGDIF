@@ -123,53 +123,6 @@ Una vez los proveedores se encuentren registrados  aparecerán  cada  uno  de  l
 
 ![logo](img/proveedores1.png)
 
-
-
-## <div style="text-align:center">MODELO LÓGICO DE BASE DE DATOS</div>
-
-## <div style="text-align:left">Entidades y atributos</div>
-<div><p  style="text-align:justify">
-Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema SisFarma contendrá  las siguientes entidades:
-
-<div><p  style="text-align:justify">
-</P></P>
-
-![logo](img/IMGA.PNG) 
-
-</div>
-
-<div><p  style="text-align:justify">
-</P></P>
-
-![logo](img/IMGB.PNG)
-</div>
-<div><p  style="text-align:justify">
-</P></P>
-
-![logo](img/IMGC.PNG) 
-</div>
-<div><p  style="text-align:justify">
-</P></P>
-
-![logo](img/IMGD.PNG)
-</div>
-<div><p  style="text-align:justify">
-</P></P>
-
-![logo](img/IMGE.PNG) 
-</div>
-<div><p  style="text-align:justify">
-</P></P>
-
-![logo](img/IMGF.PNG)
-</div>
-
-<div><p  style="text-align:justify">
-</P>Se anexa modelo lógico:</P>
-
-![logo](img/MODELO.png)
-</div>
-
 ## <div style="text-align:center">DIAGRAMA DE CLASES</div>
 
 ![logo](img/diagrama.jpg)
@@ -264,3 +217,54 @@ El diagrama de clases presenta las siguientes características:
 </p></div>
 
 </div>
+
+
+## <div style="text-align:center">MODELO LÓGICO DE BASE DE DATOS</div>
+
+## <div style="text-align:left">Entidades y atributos</div>
+<div><p  style="text-align:justify">
+Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema SisFarma contendrá  las siguientes entidades:
+
+<div><p  style="text-align:justify">
+</P></P>
+
+![logo](img/IMGA.PNG) 
+
+</div>
+
+<div><p  style="text-align:justify">
+</P></P>
+
+![logo](img/IMGB.PNG)
+</div>
+<div><p  style="text-align:justify">
+</P></P>
+
+![logo](img/IMGC.PNG) 
+</div>
+<div><p  style="text-align:justify">
+</P></P>
+
+![logo](img/IMGD.PNG)
+</div>
+<div><p  style="text-align:justify">
+</P></P>
+
+![logo](img/IMGE.PNG) 
+</div>
+<div><p  style="text-align:justify">
+</P></P>
+
+![logo](img/IMGF.PNG)
+</div>
+
+<div><p  style="text-align:justify">
+</P>Se anexa modelo lógico:</P>
+
+![logo](img/MODELO.png)
+
+</p></div>
+Nota: cabe aclarar que las entidades cliente y vendedores fueron fusionadas ya que estas contaban con los mismos atributos y generaban redundacia de los datos, en diálogo con el equipo de tabajo  se toma esta decisión.
+</p></div>
+</div>
+
