@@ -48,7 +48,7 @@ class FormularioPersonas extends Component {
                     <div className="containerLogin_form">
                         <div className="loginHeader">
                             <p className="pheader">Registro de persona</p>
-                            <img className="imgLlogin" src={logoPoli} />   
+                            <img className="imgLlogin" src={logoPoli} alt="logo" />   
                         </div>
 
                         <form className="formLogin"   >

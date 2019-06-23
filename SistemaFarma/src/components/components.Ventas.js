@@ -57,7 +57,7 @@ class FormularioComponent extends Component {
                     <div className="containerLogin_form">
                         <div className="loginHeader">
                             <p className="pheader" font size="380">Nueva venta</p>
-                            <img className="imgLlogin" src={logoPoli} />   
+                            <img className="imgLlogin" src={logoPoli} alt="logo"/>   
                         </div>
 
                         
