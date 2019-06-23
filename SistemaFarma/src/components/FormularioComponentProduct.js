@@ -24,11 +24,6 @@ class FormularioComponentProducts extends Component {
         this.setState({
             [e.target.name]: e.target.value,
             [e.target.password]: e.target.value,
-            [e.target.datef]: e.target.value,
-            [e.target.datev]: e.target.value,
-            [e.target.cant]: e.target.value,
-            [e.target.val]: e.target.value,
-            [e.target.submit]: e.target.value,
         })
     }
 
@@ -39,29 +34,9 @@ class FormularioComponentProducts extends Component {
     }
 
     validate(){
-        if(this.state.name === ""){
-            alert("Campo nombre vacio");
-        }
-
-        if(this.state.datef === ""){
-            alert("Campo fecha de fabricación vacio");
-        }
-
-        if(this.state.datef === ""){
-            alert("Campo fecha de vencimiento vacio");
-        }
-        
-        if(this.state.cant === ""){
-            alert("Campo cantidad vacio");
-        }
-
-        if(this.state.val === ""){
-            alert("Campo valor vacio");
-        }
-
-    
 
     }
+
     render(){
     
         
@@ -78,37 +53,37 @@ class FormularioComponentProducts extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-6">
-                                    <label>*Nombre Proveedor</label>
-                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)}type="text" id="name" name="name" placeholder="Nombre proveedor"/>
+                                    <label><font color="#0578F9">*</font>Nombre Proveedor</label>
+                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)}type="text" id="name" name="name" placeholder="Nombre proveedor" required/>
                                     </div>
                                     <div className="col-6">
-                                        <label>*Fecha de fabricación</label>
-                                        <input className="form-control inputs" value={this.state.datef} onChange={this.onChange.bind(this)} type="date" id="datef" name="datef"  placeholder="DD-MM-AAAA"/>
+                                        <label><font color="#0578F9">*</font>Fecha de fabricación</label>
+                                        <input className="form-control inputs" value={this.state.datef} onChange={this.onChange.bind(this)} type="date" id="datef" name="datef"  placeholder="DD-MM-AAAA" required/>
                                     </div>
                                     <div className="col-6">
-                                        <label>*Fecha de vencimiento</label>
-                                        <input className="form-control inputs" value={this.state.datev} onChange={this.onChange.bind(this)} type="date" id="datev" name="datev"  placeholder="DD-MM-AAAA"/>
+                                        <label><font color="#0578F9">*</font>Fecha de vencimiento</label>
+                                        <input className="form-control inputs" value={this.state.datev} onChange={this.onChange.bind(this)} type="date" id="datev" name="datev"  placeholder="DD-MM-AAAA" required/>
                                     </div>
                                     <div className="col-6">
-                                        <label>*Cantidad disponible</label>
-                                        <input className="form-control inputs" value={this.state.cant} onChange={this.onChange.bind(this)} type="number" id="cant" name="cant"  placeholder="cantidad disponible"/>
+                                        <label><font color="#0578F9">*</font>Cantidad disponible</label>
+                                        <input className="form-control inputs" value={this.state.cant} onChange={this.onChange.bind(this)} type="number" id="cant" name="cant"  placeholder="cantidad disponible" required/>
                                     </div>
                                     
                                 </div>
 
                                 <div className="row">
                                     <div className="col-6">
-                                        <label>*Valor de producto</label>
-                                        <input className="form-control inputs" value={this.state.val} onChange={this.onChange.bind(this)} type="number" id="val" name="val"  placeholder="Valor producto"/>
+                                        <label><font color="#0578F9">*</font>Valor de producto</label>
+                                        <input className="form-control inputs" value={this.state.val} onChange={this.onChange.bind(this)} type="number" id="val" name="val"  placeholder="Valor producto" required/>
                                     </div>
                                         <div className="col-6">
-                                        <label>*Categoria</label>
+                                        <label><font color="#0578F9">*</font>Categoria</label>
                                         <select class="form-control inputs" >
-                                        <option > --Selecciona una opción--</option>
-                                        <option > Medicamentos</option>
-                                        <option > Higiene </option>
-                                        <option > Infantil </option>
-                                        <option > Comestica </option>
+                                        <option value=""> --Selecciona una opción--</option>
+                                        <option value="1"> Medicamentos</option>
+                                        <option value="2"> Higiene </option>
+                                        <option value="3"> Infantil </option>
+                                        <option value="4"> Comestica </option>
                                         
                                 </select>
                                 </div>
@@ -117,38 +92,55 @@ class FormularioComponentProducts extends Component {
                             </div>
                                 <div className="row">
                                 <div className="col-6">
-                                        <label>*Marcas</label>
+                                        <label><font color="#0578F9">*</font>Marca</label>
                                         <select class="form-control inputs">
-                                        <option > --Selecciona una opción--</option>
-                                        <option > Eucerin</option>
-                                        <option > Bayer </option>
-                                        <option > j&j </option>
-                                        <option > Oral-B </option>
-                                        <option > Huggies </option>
+                                        <option value=""> --Selecciona una opción--</option>
+                                        <option value="1"> Eucerin</option>
+                                        <option value="2"> Bayer </option>
+                                        <option value="3"> j&j </option>
+                                        <option value="4"> Oral-B </option>
+                                        <option value="5"> Huggies </option>
                                 </select>
                                 </div>
                                 <div className="col-6">
-                                        <label>*Presentación</label>
+                                        <label><font color="#0578F9">*</font>Presentación</label>
                                         <select class="form-control inputs">
-                                        <option > --Selecciona una opción--</option>
-                                        <option > Unidad</option>
-                                        <option > Sobre </option>
-                                        <option > Paquete </option>
-                                        <option > Docena </option>
+                                        <option value=""> --Selecciona una opción--</option>
+                                        <option value="1"> Unidad</option>
+                                        <option value="2"> Sobre </option> 
+                                        <option value="3"> Paquete </option>
+                                        <option value="4"> Docena </option>
                                 </select>
                                 </div>
 
-                                
-                                <div className="buttons container col-6">
-                                    <input className="btn_login" onClick={this.guadar.bind(this)} type="submit" id="submit" name="submit" value="Guardar Productos" />
-                                </div>  
-                            </div> 
-                                
+                                    <div className="buttons container col-6">
+                                        <input className="btn_guardarProductos" onClick={this.guadar.bind(this)} type="submit" name="submit" value="Guardar Productos" />
+                                    </div>  
+                             </div> 
+
+                             <div className="row"></div>
+                               <div className="formLogin1" >
+                                <table id="example" class="formLogin1">
+                                     <thead>
+                                        <tr>
+                                              <td>Nombre</td>
+                                              <td>Fecha fabricación</td>
+                                              <td>Fecha vencimiento</td>
+                                              <td>Valor producto</td>
+                                              <td>Categoria</td>
+                                              <td>Marca</td>
+                                              <td>Presentacion</td>
+                                              <td>Modificar o eliminar</td>
+                                         </tr>
+                                        </thead>
+                                    </table>
+                                </div>    
                             </div>
-                          
-                        </form>
+                       </form>
+                        
                 </div>
-             </div>
+                
+            </div>
          </div>
         )
     }
