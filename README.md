@@ -72,7 +72,7 @@ Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
 
 <div style="text-align: center" > 
 
-# Prototipos del sistema de gestión de farmacias (SisFarma)
+# PROTOTIPOS DEL SISTEMA DE GESTIÓN DE FARMACIAS (SisFarma)
 
 </div>
 
@@ -127,7 +127,7 @@ Una vez los proveedores se encuentren registrados  aparecerán  cada  uno  de  l
 
 
 
-## <div style="text-align:center">Modelo lógico de base de datos</div>
+## <div style="text-align:center">MODELO LÓGICO DE BASE DE DATOS</div>
 
 ## <div style="text-align:left">Entidades y atributos</div>
 <div><p  style="text-align:justify">
@@ -171,6 +171,10 @@ Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema 
 
 ![logo](img/MODELO.png)
 </div>
+
+## <div style="text-align:center">DIAGRAMA DE CLASES</div>
+
+![logo](img/diagrama.jpg)
 
 </p></div>
 El diagrama de clases presenta las siguientes características:
