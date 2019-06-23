@@ -9,8 +9,14 @@ class FormularioPersonas extends Component {
     constructor(args){
         super(args)
         this.state = {
+            
             name: '',
-            password:  ''
+            apellido:  '',
+            TipoDoc: '',
+            identificacion: '',
+            direccion: '',
+            telefono: '',
+            perfil: '', 
         }
 
     }
@@ -29,17 +35,10 @@ class FormularioPersonas extends Component {
     }
 
     validate(){
-        if(this.state.name === ""){
-            alert("dfdf");
-        }
-        
-        if(this.state.password === ""){
-            alert("dfdf");
-        }
-
+       
+      }
 
     
-    }
     render(){
     
         
@@ -57,28 +56,29 @@ class FormularioPersonas extends Component {
                                 <div className="row">
                                     <div className="col-6">
                                         <label><font color="#0578F9">*</font>Nombres</label>
-                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)} type="text" id="name" name="name"  placeholder="Nombres"/>
+                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)} type="text" id="name" name="name"  placeholder="Nombres" required/>
                                     </div>
                                     <div className="col-6">
                                     <label><font color="#0578F9">*</font>Apellidos</label>
-                                        <input className="form-control inputs" value={this.state.apellido} onChange={this.onChange.bind(this)}type="password" id="apellido" name="apellido" placeholder="Apellidos"/>
+                                        <input className="form-control inputs" value={this.state.apellido} onChange={this.onChange.bind(this)}type="text" id="apellido" name="apellido" placeholder="Apellidos" required
+                                        />
                                     </div>
                                     </div>
                                     <div className="row">
                                     <div className="col-6">
 
-                                    <label><font color="#63ABFC">*</font>Tipo de documento</label>
-                                    <select class="form-control inputs">
-                                    <option >Seleccione</option>
-                                    <option >Cédula de ciudadanía</option>
-                                    <option >Cédula extranjera</option>
-                                    <option >Pasaporte</option>
-                                    <option >Tarjeta de identidad</option>
+                                    <label onblur="validarRecepcionado()"><font color="#63ABFC">*</font>Tipo de documento</label>
+                                    <select class="form-control inputs" id="TipoDoc">
+                                    <option value="" >Seleccione</option>
+                                    <option value="1">Cédula de ciudadanía</option>
+                                    <option value="2">Cédula extranjera</option>
+                                    <option value="3">Pasaporte</option>
+                                    <option value="4">Tarjeta de identidad</option>
                                 </select>
                                     </div>
                                     <div className="col-6">
                                     <label><font color="#0578F9">*</font>Identificación</label>
-                                        <input className="form-control inputs" value={this.state.identificacion} onChange={this.onChange.bind(this)} type="text" id="identificacion" name="identificacion"  placeholder="Identificación"/>
+                                        <input className="form-control inputs" value={this.state.identificacion} onChange={this.onChange.bind(this)} type="text" id="identificacion" name="identificacion"  placeholder="Identificación" required/>
                                     </div>
                                     </div>
                                     <div className="row">
@@ -88,30 +88,49 @@ class FormularioPersonas extends Component {
                                     </div>
                                     <div className="col-6">
                                         <label><font color="#0578F9">*</font>Teléfono</label>
-                                        <input className="form-control inputs" value={this.state.telefono} onChange={this.onChange.bind(this)} type="text" id="telefono" name="telefono"  placeholder="Teléfono"/>
+                                        <input className="form-control inputs" value={this.state.telefono} onChange={this.onChange.bind(this)} type="number" id="telefono" name="telefono"  placeholder="Teléfono" required/>
                                     </div>
                                     </div>
                                     <div className="row">
                                 <div className="col-6">
                                     <label><font color="#0578F9">*</font>Perfil</label>
-                                    <select class="form-control inputs">
-                                    <option >Seleccione</option>
-                                    <option >Administrador</option>
-                                    <option >Vendedor</option>
-                                    <option >Cliente</option>
+                                    <select class="form-control inputs" id="perfil" required>
+                                    <option value="0" >Seleccione</option>
+                                    <option value="1" >Administrador</option>
+                                    <option value="2" >Vendedor</option>
+                                    <option value="3" >Cliente</option>
                                 </select>
                                 </div>
                                 <div className="buttons container col-6">
                                     <input className="btn_guardarPersona" onClick={this.guadar.bind(this)} type="submit" value="Registrar" />
+                                    
                                 </div> 
+                                
                                 </div>
-                                <div className="row">
-                                  
-                                <i>Todos los campos con <font color="#0578F9">*</font> son obligatorios</i>
-                                    </div>
+                
+                                    <div className="row"></div>
+                                <div className="formLogin1" >
+                                <table id="example" class="formLogin1">
+                                <thead>
+                                     <tr>
+                                              <td>Nombres</td>
+                                              <td>Apellidos</td>
+                                              <td>Tipo de documento</td>
+                                              <td>Identificación</td>
+                                              <td>Dirección</td>
+                                              <td>Teléfono</td>
+                                              <td>Perfil</td>
+                                              <td>Modificar o eliminar</td>
+                                      </tr>
+                                 </thead>
+                                 </table>
+                                 </div>    
+     
+                                    
                                     </div>
                           
                         </form>
+                        
                 </div>
                 
              </div>
