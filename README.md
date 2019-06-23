@@ -65,6 +65,7 @@ Para el desarrollo de este proyecto se  utilizaran las siguientes tecnologías:
 
 # Acta de validación de información
 ![logo](img/acta.png)
+</div>
 
 <div style="text-align: center" > 
 
@@ -129,16 +130,19 @@ Una vez los proveedores se encuentren registrados  aparecerán  cada  uno  de  l
 <div><p  style="text-align:justify">
 Luego  de su  debido  análisis se  concluyo  que  la base de datos del sistema SisFarma contendrá  las sientes entidades:
 
-![logo ](img/IMGA.png) ![logo ](img/IMGB.png)
+![logo](img/IMGA.png) 
+![logo](img/IMGB.png)
 
-![logo ](img/IMGC.png) ![logo ](img/IMGD.png)
+![logo](img/IMGC.png) 
+![logo](img/IMGD.png)
 
-![logo ](img/IMGE.png) ![logo ](img/IMGF.png)
+![logo](img/IMGE.png) 
+![logo](img/IMGF.png)
 
 
 <div><p  style="text-align:justify">
 </P>Por último  se anexa modelo lógico.</P>
 
 
-![logo ](img/MODELO.png)
+![logo](img/MODELO.png)
 
