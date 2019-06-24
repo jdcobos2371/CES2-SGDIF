@@ -110,9 +110,6 @@ class FormularioComponent extends Component {
                          <td>Nombre Proveedor</td>
                          <td>Dirección</td>
                          <td>Teléfono Proveedor</td>
-                         <td>Productos ofertados</td>
-                         <td>Marca</td>
-                         <td>Presentacion</td>
                          <td>Modificar o eliminar</td>
                          </tr>
                         </thead>
