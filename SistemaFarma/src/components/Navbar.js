@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+
 import '../styles/global.css';
 import 'bootstrap/dist/css/bootstrap.css';
- 
-
+import Proveedor from '../images/Proveedor.png';
+import Producto from '../images/Productos.jpg';
+import venta from '../images/Venta.png';
+import persona from '../images/persona.png';
+import salir from '../images/salir.png';
 
 class Navbar extends Component {
     render(){
@@ -12,25 +17,26 @@ class Navbar extends Component {
         
             <nav className="sidebar">
                 <ul className="contentbar">
-                    <li className="active">
-                    <i className="fas fa-truck"></i>
-                        <span className="tooltip">Connections</span>
+                    <li className="option">
+                    <i ><img className="imgLloginNavbar" src={Proveedor} alt="logo" />  Proveedor </i>
+                        
                     </li>
-                    <li>
-                        <i className="fa fa-hdd-o"></i>
-                        <span className="tooltip">Devices</span>
+                    <li className="option">
+                    <i ><img className="imgLloginNavbar" src={Producto} alt="logo" />  Producto </i>
+                        
                     </li>
-                    <li>
-                        <i className="fa fa-newspaper-o"></i>
-                        <span className="tooltip">Contacts</span>
+                    <li className="option">
+                    <i ><img className="imgLloginNavbar" src={venta} alt="logo" />  Venta </i>
+                        
                     </li>
-                    <li>
-                        <i className="fa fa-print"></i>
-                        <span className="tooltip">Fax</span>
+                    <li className="option">
+                    <i ><img className="imgLloginNavbar" src={persona} alt="logo" />  Personas </i>
+                        
                     </li>
-                    <li>
-                        <i className="fa fa-sliders"></i>
-                        <span className="tooltip">Settings</span>
+
+                    <li className="option">
+                    <i ><img className="imgLloginNavbar" src={salir} alt="logo" />  Cerrar Sesión </i>
+                        
                     </li>
                 </ul>
             </nav>
