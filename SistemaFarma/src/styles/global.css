@@ -33,6 +33,19 @@
     
 }
 
+.contbutton{
+   margin-top:20px;
+}
+
+.buton_listar{
+    position: relative;
+    text-align: right;
+    margin: 5px;
+   margin-top: 30px;
+  
+    
+}
+
 .formLogin{
  padding: 10px;
  margin: 15px;
@@ -206,5 +219,82 @@ bottom: 30px;
       margin-right: 5px;
   }
 
+  .Profiles__list{
+    margin: auto;
+    width: 80%;
+
+  }
+
+  .Profile__section-name-list {
+	background: #ffffff;
+	box-shadow: 04px 8px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 1rem;
+	border-radius: 8px 8px 8px 8px;
+	display: flex;
+	padding: 1rem 0;
+    width: 100%;
+}
+
+.Profile__avatar-list {
+	border-radius: 50%;
+	margin-right: 1rem;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	margin-left: 1rem;
+}
+.twitter__blue_font {
+	color: #38a1f3;
+}
+.tw__logo {
+	width: 25px;
+	height: 25px;
+}
+
+.Profiles__hero {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #d5d83e;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%236eab6b' fill-opacity='0.48' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: repeat;
+    margin-bottom: 1rem;
+  }
+  
+  .Profiles__hero>.Profiles__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Profiles__container {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 01rem;
+  }
+  
+  .Profiles_conf-logo {
+    margin-bottom: 2rem;
+  }
+  
+  .Profiles__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+  }
+
+  .info{
+    margin-top: 50px;
+    height: 50px;
+  }
+
+
+.grid{
+    margin:auto;
+}
+
+.Profiles__list{
+    margin-top: 5%;
+}
 
  

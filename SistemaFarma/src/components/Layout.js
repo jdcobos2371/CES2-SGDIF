@@ -8,7 +8,6 @@ const Layout = (props) =>{
     return (
         <React.Fragment>
            <Top/>
-         
             {props.children}
         </React.Fragment>
     )

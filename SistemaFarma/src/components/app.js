@@ -8,6 +8,7 @@ import Products from '../pages/Productos';
 import login from '../pages/Login';
 import Ventas from '../pages/Ventas'
 import Personas from '../pages/Personas';
+import Profiles from '../pages/Profiles'
 
 
 
@@ -18,6 +19,7 @@ function AppSisfarma(){
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/login" component={login} />
+                    <Route exact path="/Menu/proveedores/listar" component={Profiles} />
                     <Route exact path="/Menu/ventas" component={Ventas} />
                     <Route exact path="/Menu/proveedores" component={ProfileNew} />
                     <Route exact path="/Menu/productos" component={Products} />
