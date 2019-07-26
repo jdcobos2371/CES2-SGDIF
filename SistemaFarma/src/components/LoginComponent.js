@@ -9,7 +9,8 @@ class LoginComponent extends Component {
         super(args)
         this.state = {
             name: '',
-            password:  ''
+            password:  '',
+            submit: ''
         }
 
     }
@@ -17,7 +18,7 @@ class LoginComponent extends Component {
     onChange(e){
         this.setState({
             [e.target.name]: e.target.value,
-            [e.target.password]: e.target.value
+            [e.target.password]: e.target.value,
         })
     }
 
@@ -27,18 +28,6 @@ class LoginComponent extends Component {
 
     }
 
-    validate(){
-        if(this.state.name === ""){
-            alert("Ingrese Usuario del sistema");
-        }
-        
-        if(this.state.password === ""){
-            alert("Ingrese Contraseña");
-        }
-
-
-    
-    }
     render(){
     
         
@@ -56,10 +45,10 @@ class LoginComponent extends Component {
                                 <div className="row">
                                     <div className="col-12">
                                         <label></label>
-                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)} type="text" id="name" name="name"  placeholder="Usuario"/>
+                                        <input className="form-control inputs" value={this.state.name} onChange={this.onChange.bind(this)} type="text" id="name" name="name"  placeholder="Usuario" required/>
                                     </div>
                                     <div className="col-12">
-                                        <input className="form-control inputs" value={this.state.password} onChange={this.onChange.bind(this)}type="password" id="password" name="password" placeholder="Contraseña"/>
+                                        <input className="form-control inputs" value={this.state.password} onChange={this.onChange.bind(this)}type="password" id="password" name="password" placeholder="Contraseña" required/>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +56,12 @@ class LoginComponent extends Component {
                             <div className="buttons container">
                                 <div className="row">
                                     <div className="col-12">
-                                        <input className="btn_login" onClick={this.guadar.bind(this)} type="submit" value="Iniciar Sesión" />
+                                    
+                                        <a href="/Menu/proveedores">
+                                        <span class="btn_login" className="btn_login" onClick={this.guadar.bind(this)}  name="submit" type="submit"> Inicio sesión </span>
+                                        </a>
+                                        
+                                       < span onClick={this.guadar.bind(this)} ></span>
                                   </div>
                                 </div>
                             </div>  
@@ -77,6 +71,30 @@ class LoginComponent extends Component {
              </div>
          </div>
         )
+    }
+    
+    validate(){
+        if(this.state.name === ""){
+            alert("Ingrese Usuario del sistema");
+            
+        }
+        
+        if(this.state.password === ""){
+            alert("Ingrese Contraseña");
+        }
+
+        if(this.state.password !== "admin"){
+            alert("Usuario incorrecta");
+        }
+
+
+        if(this.state.password !== "123"){
+            alert("Contraseña incorrecta");
+        }
+
+
+
+
     }
 }
 
