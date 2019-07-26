@@ -119,30 +119,11 @@ class FormularioComponent extends Component {
                           
                         </form>
                 </div>
-                <div className="h1">
-
-                                        <h1>Nota: los campo con * son obligatorios</h1>
-
-                                    </div>
+               
              </div>
 
              <div className="row"></div>
-     <div className="formLogin1" >
-<table id="example" class="formLogin1">
-<thead>
-            <tr>
-            <th>Número de venta</th>
-            <th>Producto</th>
-            <th>Fecha de venta</th>
-            <th>Unidades vendidas</th>
-            <th>Iva del 19% </th>
-            <th>Valor total</th>
-            <th>Opciones (Modificar o eliminar venta)</th>
-            </tr>
-            </thead>
-            </table>
-            </div>    
-         </div>
+    </div>
 
            
         )

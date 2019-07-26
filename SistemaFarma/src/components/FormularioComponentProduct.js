@@ -119,22 +119,7 @@ class FormularioComponentProducts extends Component {
                              </div> 
 
                              <div className="row"></div>
-                               <div className="formLogin1" >
-                                <table id="example" class="formLogin1">
-                                     <thead>
-                                        <tr>
-                                              <td>Nombre</td>
-                                              <td>Fecha fabricación</td>
-                                              <td>Fecha vencimiento</td>
-                                              <td>Valor producto</td>
-                                              <td>Categoria</td>
-                                              <td>Marca</td>
-                                              <td>Presentacion</td>
-                                              <td>Modificar o eliminar</td>
-                                         </tr>
-                                        </thead>
-                                    </table>
-                                </div>    
+                                
                             </div>
                        </form>
                         

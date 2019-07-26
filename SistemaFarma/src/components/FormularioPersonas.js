@@ -109,22 +109,7 @@ class FormularioPersonas extends Component {
                                 </div>
                 
                                     <div className="row"></div>
-                                <div className="formLogin1" >
-                                <table id="example" class="formLogin1">
-                                <thead>
-                                     <tr>
-                                              <td>Nombres</td>
-                                              <td>Apellidos</td>
-                                              <td>Tipo de documento</td>
-                                              <td>Identificación</td>
-                                              <td>Dirección</td>
-                                              <td>Teléfono</td>
-                                              <td>Perfil</td>
-                                              <td>Modificar o eliminar</td>
-                                      </tr>
-                                 </thead>
-                                 </table>
-                                 </div>    
+                               
      
                                     
                                     </div>
