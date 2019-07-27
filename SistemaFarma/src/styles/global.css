@@ -297,4 +297,22 @@ bottom: 30px;
     margin-top: 5%;
 }
 
+.datos{
+    margin: auto;
+    border-bottom: solid 1px black;
+}
+
+.listarProveedores{
+    margin-top:7%;
+    border-bottom: solid 1px black;
+}
+
+.listado{
+    margin-top: 30px;
+}
+
+.eliminar{
+    width: 100%;
+}
+
  

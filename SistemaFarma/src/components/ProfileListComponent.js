@@ -7,72 +7,85 @@ import axios from 'axios'
 
 
 class ProfileList extends React.Component{
+
+
+
     
+    state = {
+        id: '',
+        persons: []
+      }
 
-        state = {
-            id: '',
-        }
-
-        handleChange = event => {
-            this.setState({ id: event.target.value });
-          }
-
-          handleSubmit = event => {
-            event.preventDefault();
-        
-            axios.delete(`http://localhost:5700/api/profiles/${this.state.id}`)
-              .then(res => {
-                console.log(res);
-                console.log(res.data);
-              })
-          }
-    render(){
+     
+    
+      handleChange = event => {
+        this.setState({ id: event.target.value });
+      }
+    
+      handleSubmit = event => {
+        event.preventDefault();
+    
+        axios.delete(`http://localhost:5700/api/ProfileApiService/${this.state.id}`)
+          .then(res => {
+            console.log(res);
+            console.log(res.data);
+          })
+      }
+    
+      componentDidMount() {
+        axios.get(`http://localhost:5700/api/ProfileApiService`)
+          .then(res => {
+            const persons = res.data;
+            this.setState({ persons });
+          })
+      }
+    
+      render() {
         return (
-            <ul className="list-unstyled">
-                {this.props.profiles.map(profile => {
-                    return(
-                        <li key={profile.id} className='Profile__section-name-list'>
-                        <div className="grid">
-                            <div className="row">
-                                    
-                                    <div className="col">
-                                    <label>Nit</label> 
-                                    <br/>
-                                    {profile.nit}
-                                    </div>
-                                    <div  className="col">
-                                        <label>Nombre</label>
-                                        <br/>
-                                        {profile.name}
-                                    </div>
-                                    <div  className="col">
-                                        <label>teléfono</label>
-                                        <br/>
-                                         {profile.telefono}
-                                    </div>
-                                    <div  className="col">
-                                        <label>Dirección</label>
-                                        <br/>
-                                         {profile.direccion}
-                                    </div>
-                                    <div  className="col">
-                                        <label>Productos</label>
-                                        <br/>
-                                        {profile.productos}
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                                
-                                
-                              
-                        </li>
-                    )
-                })}
-            </ul>
+          
+            <div className="container listardatos">
+                     <div className="row">
+              <div className="col">
+                        <label>Nit Proveedor</label> 
+                        <br/>
+                        { this.state.persons.map(person => <div>{person.nit}</div>)}
+                </div>
+
+                <div className="col">
+                        <label>Nombre Proveedor</label> 
+                        <br/>
+                        { this.state.persons.map(person => <div>{person.name}</div>)}
+                </div>
+
+                <div className="col">
+                        <label>teléfono Proveedor</label> 
+                        <br/>
+                        { this.state.persons.map(person => <div>{person.telefono}</div>)}
+                </div>
+
+                <div className="col">
+                        <label>Dirección Proveedor</label> 
+                        <br/>
+                        { this.state.persons.map(person => <div>{person.direccion}</div>)}
+                </div>
+
+                <div className="col">
+                        <label>Productos Proveedor</label> 
+                        <br/>
+                        { this.state.persons.map(person => <div>{person.productos}</div>)}
+                </div>
+
+                <div>
+           
+        </div>  
+              </div>
+            </div>
+           
+              
+      
+          
         )
+      }
     }
-}
 
 export default ProfileList;

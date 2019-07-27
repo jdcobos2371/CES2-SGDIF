@@ -54,7 +54,7 @@ class FormularioComponent extends Component {
         }
 
 
-        axios.post('http://localhost:5700/api/profiles', data)
+        axios.post('http://localhost:5700/api/ProfileApiService', data)
         .then(Response =>{
             console.log(Response);
             this.setState({
@@ -102,7 +102,7 @@ class FormularioComponent extends Component {
                                                  
                                             
                                                 <div className="col-4 contbutton" >
-                                                <Link to="/Menu/proveedores/listar" className="buton_listar btn_login">Listar Proveedores</Link>
+                                                <Link to="/Menu/proveedores/listarProveedores" className="buton_listar btn_login">Listar Proveedores</Link>
                                             </div>
 
                                             </div>

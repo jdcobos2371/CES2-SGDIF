@@ -43,8 +43,39 @@ class ProfileList extends React.Component{
       render() {
         return (
           
-            <div className="container datos">
-                     <div className="row">
+            <div className="container listarProveedores">
+
+            <div className="row">
+               <div className="col-2">
+                    <label>Id proveedor:</label>
+               </div>
+             
+               <form onSubmit={this.handleSubmit}>
+                   <div className="row">
+                        <div className="col">
+                            <input className="form-control" type="text" name="id" onChange={this.handleChange} />
+                        </div>
+                        <div className="col">
+                        <button className="  btn_login delete " type="submit">Eliminar Proveedor</button>
+                        </div>
+                   </div>
+                   
+                   
+                </form>
+           
+              
+                
+              
+                
+             
+            </div>
+                     <div className="row listado">
+
+                     <div className="col">
+                        <label>Id Proveedor</label> 
+                        <br/>
+                        { this.state.persons.map(person => <div>{person._id}</div>)}
+                </div>
               <div className="col">
                         <label>Nit Proveedor</label> 
                         <br/>
