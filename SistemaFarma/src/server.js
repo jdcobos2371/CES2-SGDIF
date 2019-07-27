@@ -1,0 +1,52 @@
+    
+const express = require('express');
+const app = express();
+
+const path = require('path');
+const mongoose = require('mongoose');
+const passport = require('passport');
+const flash = require('connect-flash');
+const morgan = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const session = require('express-session');
+
+const { url } = require('./config/database.js');
+
+mongoose.connect(url, {
+	useMongoClient: true
+});
+
+require('./config/passport.js')(passport);
+
+// settings
+app.set('port', process.env.PORT || 3000);
+app.set('pages', path.join(__dirname, 'pages'));
+app.set('pages engine', 'ejs');
+
+// middlewares
+app.use(morgan('dev'));
+app.use(cookieParser());
+app.use(bodyParser.urlencoded({extended: false}));
+
+// required for passport
+app.use(session({
+	secret: 'farmacia',
+	resave: false,
+	saveUninitialized: false
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash());
+
+// routes
+require('./app/app.js')(app, passport);
+
+// static files
+app.use(express.static(path.join(__dirname, 'public')));
+
+// start the server
+app.listen(app.get('port'), () => {
+	console.log('server on port ', app.get('port'));
+});

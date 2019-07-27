@@ -3,21 +3,15 @@ import LoginComponent from '../components/LoginComponent';
 
 
 class Login extends React.Component{
+    
     render(){
-        return(
-          
-            <div  className="container">
-            <LoginComponent />
-            </div>
-        
-
-            
-          
-         
-                
-         
-        )
-    }
+        return (
+           <React.Fragment>
+            <LoginComponent>
+            </LoginComponent>  
+           </React.Fragment>    
+       )
+   }
 }
 
 export default Login;
